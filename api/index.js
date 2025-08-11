@@ -4,7 +4,7 @@ import passport from "passport";
 import { Strategy as LocalStrategy } from "passport-local";
 import bcrypt from "bcrypt";
 import { db } from "../lib/db.js";
-import { users } from "../../shared/schema.ts";
+import { users } from "../shared/schema.ts";
 import { eq } from "drizzle-orm";
 import authRoutes from "./auth.js";
 import userRoutes from "./users.js";

@@ -1,6 +1,6 @@
 import express from "express";
 import { db } from "../lib/db.js";
-import { leaveRequests, users, insertLeaveRequestSchema } from "../../shared/schema.ts";
+import { leaveRequests, users, insertLeaveRequestSchema } from "../shared/schema.ts";
 import { eq, and, desc } from "drizzle-orm";
 import { requireAuth, requireAdmin } from "../lib/auth.js";
 import { sendSlackNotification } from "../lib/slack.js";

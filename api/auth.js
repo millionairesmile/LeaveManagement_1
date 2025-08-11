@@ -2,7 +2,7 @@ import express from "express";
 import passport from "passport";
 import bcrypt from "bcrypt";
 import { db } from "../lib/db.js";
-import { users, insertUserSchema } from "../../shared/schema.ts";
+import { users, insertUserSchema } from "../shared/schema.ts";
 import { eq } from "drizzle-orm";
 import { ZodError } from "zod";
 

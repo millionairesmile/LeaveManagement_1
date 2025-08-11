@@ -1,6 +1,6 @@
 import express from "express";
 import { db } from "../lib/db.js";
-import { users } from "../../shared/schema.ts";
+import { users } from "../shared/schema.ts";
 import { eq, ne } from "drizzle-orm";
 import { requireAuth, requireAdmin } from "../lib/auth.js";
 
